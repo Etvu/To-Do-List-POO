@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: white;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1D1725;
+    flex-direction: column;
+}
+.container{
+    background-color: #36264A;
+    height: 600px;
+    width: 600px;
+    max-width: 100%;
+}
+.container_input_button{
+    display: flex;
+    width: 100%;
+}
+.container_input_button input{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    background-color: #582A95;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    font-size: 1.3rem;
+    padding-left: 5px;
+    color: white;
+}
+.container_input_button ::placeholder{
+    color: white;
+    line-height: 50px;
+}
+.container_input_button button{
+    border: 0;
+    width: 50px;
+    background-color: white;
+    color: #582A95;
+    font-size: 2rem;
+}
+
+.task div{
+    padding: 5px;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    width: 100%;
+}
+.fade-out {
+    opacity: 1;
+    transition: opacity 1s ease-out; /* 1 seconde pour l'effet fade */
+}
+
+.fade-out-hidden {
+    opacity: 0; /* Disparaît totalement */
+}
